@@ -1,0 +1,47 @@
+- menu: Android
+   link: Android
+   icon: android
+   
+- menu: Angular JS
+   link: Angular
+   icon: angular
+
+- menu: Django
+   link: Django
+   icon: 
+   
+- menu: Ionic
+   link: Ionic
+   icon: django
+   
+- menu: JSP
+   link: Jsp
+   icon: ionic
+   
+- menu: Laravel
+   link: Laravel
+   icon: laravel
+   
+- menu: MongoDB
+   link: Mongo
+   icon: mongodb
+   
+- menu: Node.js
+   link: Node
+   icon: nod-dot-js
+   
+- menu: PHP
+   link: Php
+   icon: php
+   
+- menu: Python
+   link: Python
+   icon: python
+   
+- menu: Raspberry Pi
+   link: Raspberry
+   icon: raspberrypi
+   
+- menu: Wordpress
+   link: Wordpress
+   icon: wordpress
