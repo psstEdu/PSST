@@ -1,47 +1,47 @@
 - menu: Android
-   link: Android
-   icon: android
+  link: Android
+  icon: android
    
 - menu: Angular JS
-   link: Angular
-   icon: angular
+  link: Angular
+  icon: angular
 
 - menu: Django
-   link: Django
-   icon: 
+  link: Django
+  icon: 
    
 - menu: Ionic
-   link: Ionic
-   icon: django
+  link: Ionic
+  icon: django
    
 - menu: JSP
-   link: Jsp
-   icon: ionic
+  link: Jsp
+  icon: ionic
    
 - menu: Laravel
-   link: Laravel
-   icon: laravel
+  link: Laravel
+  icon: laravel
    
 - menu: MongoDB
-   link: Mongo
-   icon: mongodb
+  link: Mongo
+  icon: mongodb
    
 - menu: Node.js
-   link: Node
-   icon: nod-dot-js
+  link: Node
+  icon: nod-dot-js
    
 - menu: PHP
-   link: Php
-   icon: php
+  link: Php
+  icon: php
    
 - menu: Python
-   link: Python
-   icon: python
+  link: Python
+  icon: python
    
 - menu: Raspberry Pi
-   link: Raspberry
-   icon: raspberrypi
+  link: Raspberry
+  icon: raspberrypi
    
 - menu: Wordpress
-   link: Wordpress
-   icon: wordpress
+  link: Wordpress
+  icon: wordpress
