@@ -8,15 +8,15 @@
 
 - menu: Django
   link: Django
-  icon: 
+  icon: django
    
 - menu: Ionic
   link: Ionic
-  icon: django
+  icon: ionic
    
 - menu: JSP
   link: Jsp
-  icon: ionic
+  icon: java
    
 - menu: Laravel
   link: Laravel
