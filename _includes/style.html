@@ -481,7 +481,7 @@ Main components
 /* ****************************************
      ************************************* */
 {% for y in site.data.cources %}
-.cd-primary-nav .cd-nav-icons .cd-nav-item.item-{{ for.index }}::before {
+.cd-primary-nav .cd-nav-icons .cd-nav-item.item-{{ for.y }}::before {
   background-image: url("{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg")
 }
 {% endfor %}
