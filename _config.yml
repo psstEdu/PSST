@@ -1,3 +1,8 @@
 title: PSST
 url: "https://arunksoman.github.io"
 baseurl: "/PSST"
+
+
+highlighter: rouge
+markdown: kramdown
+gems: [jekyll-paginate, jekyll-gist]
