@@ -6,12 +6,14 @@
             <ul class="cd-nav-icons is-hidden">
                 <li class="go-back"><a href="#0">Menu</a></li>
                 <li class="see-all"><a href="{{ site.baseurl }}/all-cources">All cources</a></li>
+                {% for y in site.data.cources %}
                     <li>
-                        <a class="cd-nav-item item-1" href="http://codyhouse.co/?p=409">
-                            <h3>Service #1</h3>
+                        <a class="cd-nav-item item-1" style="background-image: url('{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}"href="{{ site.url }}{{ site.baseurl }}/PSST/cources/{{ y.link }}')">
+                            <h3>{{ y.menu }}</h3>
                             <p>This is the item description</p>
                         </a>
                    </li>
+                {% endfor %}
          </li>
     </ul> <!-- primary-nav -->
 </nav> <!-- cd-nav -->
