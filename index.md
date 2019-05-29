@@ -2,4 +2,4 @@
 layout: default
 ---
 
-test
+{% include hero-slider.html %}
