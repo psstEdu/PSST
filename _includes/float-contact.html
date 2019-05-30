@@ -3,9 +3,12 @@
 </a>
 <ul class="contact">
 {% for y in site.data.contacts %}
+<div class="tooltip"> 
 <li><a href="{{ y.link }}" style="background-color: {{ y.color }}">
 <i class="fa fa-{{ y.icon }} my-float"></i>
 </a>
 </li>
+  <span class="tooltiptext">{{ y.tooltip }}</span>
+</div>
 {% endfor %}
 </ul>
