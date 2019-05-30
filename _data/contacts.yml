@@ -1,6 +1,7 @@
 - icon: phone
   link: "tel:+919072488881"
   color: "#00c538"
+  tooltip: "+919072488881"
   
 - icon: whatsapp
   link: "https://wa.me/+91 93887 65222"
