@@ -1302,9 +1302,12 @@ a#menu-share:hover > i{
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
+  min-width: 120px;
+  overflow: hidden;
+  white-space: nowrap;
   background-color: black;
   color: #fff;
+  font-size: 16px;
   text-align: center;
   border-radius: 6px;
   padding: 5px 0;
@@ -1316,7 +1319,6 @@ a#menu-share:hover > i{
 
 .tooltip .tooltiptext::after {
   content: "";
-	font-size: 18px;
   position: absolute;
   top: 50%;
   left: 100%;
