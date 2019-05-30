@@ -1,47 +1,59 @@
 - menu: Android
   link: Android
   icon: android
+  description: Description of course goes here
    
 - menu: Angular JS
   link: Angular
   icon: angular
+  description: Description of course goes here
 
 - menu: Django
   link: Django
   icon: django
+  description: Description of course goes here
    
 - menu: Ionic
   link: Ionic
   icon: ionic
+  description: Description of course goes here
    
 - menu: JSP
   link: Jsp
   icon: java
+  description: Description of course goes here
    
 - menu: Laravel
   link: Laravel
   icon: laravel
+  description: Description of course goes here
    
 - menu: MongoDB
   link: Mongo
   icon: mongodb
+  description: Description of course goes here
    
 - menu: Node.js
   link: Node
   icon: node-dot-js
+  description: Description of course goes here
    
 - menu: PHP
   link: Php
   icon: php
+  description: Description of course goes here
    
 - menu: Python
   link: Python
   icon: python
+  description: Description of course goes here
    
 - menu: Raspberry Pi
   link: Raspberry
   icon: raspberrypi
+  description: Description of course goes here
    
 - menu: Wordpress
   link: Wordpress
   icon: wordpress
+  description: Description of course goes here
