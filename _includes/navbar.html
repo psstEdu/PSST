@@ -2,7 +2,7 @@
     <ul id="cd-primary-nav" class="cd-primary-nav is-fixed">
         <li><a href="{{ site.baseurl }}/about">About Us</a></li>
         <li class="has-children">
-            <a href="{{ site.baseurl }}/cources">Cources</a>
+            <a href="{{ site.baseurl }}/cources">Courses</a>
             <ul class="cd-nav-icons is-hidden">
                 <li class="go-back"><a href="#0">Menu</a></li>
                 <li class="see-all"><a href="{{ site.baseurl }}/all-cources">All cources</a></li>
@@ -10,7 +10,7 @@
                     <li>
                         <a class="cd-nav-item item-{{ forloop.index }}" href="{{ site.url }}{{ site.baseurl }}/PSST/cources/{{ y.link }}">
                             <h3>{{ y.menu }}</h3>
-                            <p>This is the item description</p>
+                            <p>{{ y.description }}</p>
                         </a>
                    </li>
                 {% endfor %}
