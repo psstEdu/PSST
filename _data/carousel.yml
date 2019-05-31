@@ -1,27 +1,34 @@
 - image: "1.jpg"
   title: Heading
   subtitle: Subtitle
+  link: "#"
   
 - image: "2.jpg"
   title: Heading
   subtitle: Subtitle
+  link: "#"
   
 - image: "3.jpg"
   title: Heading
   subtitle: Subtitle
+  link: "#"
   
 - image: "4.jpg"
   title: Heading
   subtitle: Subtitle
+  link: "#"
   
 - image: "5.jpg"
   title: Heading
   subtitle: Subtitle
+  link:"#"
   
 - image: "6.jpg"
   title: Heading
   subtitle: Subtitle
+  link:"#"
   
 - image: "7.jpg"
   title: Heading
   subtitle: Subtitle
+  link: "#"
