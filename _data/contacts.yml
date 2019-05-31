@@ -3,6 +3,11 @@
   color: "#00c538"
   tooltip: "+919072488881"
   
+- icon: envelope
+  link: "mailto:progressiveofc@gmail.com?Subject=Enquiry"
+  color: "d14836"
+  tooltip: "Mail"
+  
 - icon: whatsapp
   link: "https://wa.me/+91 93887 65222"
   color: "#25D366"
