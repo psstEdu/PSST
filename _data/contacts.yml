@@ -5,7 +5,7 @@
   
 - icon: envelope
   link: "mailto:progressiveofc@gmail.com?Subject=Enquiry"
-  color: "d14836"
+  color: "#d14836"
   tooltip: "Mail"
   
 - icon: whatsapp
