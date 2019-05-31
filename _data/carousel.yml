@@ -1,2 +1,27 @@
-- image: ""
+- image: "1.jpg"
+  title: Heading
+  subtitle: Subtitle
   
+- image: "2.jpg"
+  title: Heading
+  subtitle: Subtitle
+  
+- image: "3.jpg"
+  title: Heading
+  subtitle: Subtitle
+  
+- image: "4.jpg"
+  title: Heading
+  subtitle: Subtitle
+  
+- image: "5.jpg"
+  title: Heading
+  subtitle: Subtitle
+  
+- image: "6.jpg"
+  title: Heading
+  subtitle: Subtitle
+  
+- image: "7.jpg"
+  title: Heading
+  subtitle: Subtitle
