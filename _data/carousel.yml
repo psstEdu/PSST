@@ -21,12 +21,12 @@
 - image: "5.jpg"
   title: Heading
   subtitle: Subtitle
-  link:"#"
+  link: "#"
   
 - image: "6.jpg"
   title: Heading
   subtitle: Subtitle
-  link:"#"
+  link: "#"
   
 - image: "7.jpg"
   title: Heading
