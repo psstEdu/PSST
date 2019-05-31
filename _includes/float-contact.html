@@ -8,7 +8,7 @@
 <i class="fa fa-{{ y.icon }} my-float"></i>
 </a>
 </li>
-  <span class="tooltiptext">{{ y.tooltip }}</span>
+  <span class="tooltiptext">{% if tooltip %}{{ y.tooltip }}{% endif %}</span>
 </div>
 {% endfor %}
 </ul>
