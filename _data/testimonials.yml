@@ -1,0 +1,24 @@
+- testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.."
+  avatar: "avtar-1.jpg"
+  name: "Name of student"
+  designation: "College Name"
+  
+- testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  avatar: "avtar-2.jpg"
+  name: "Name of student"
+  designation: "College Name"
+  
+- testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua consequat."
+  avatar: "avtar-3.jpg"
+  name: "Name of student"
+  designation: "College Name"
+  
+- testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud."
+  avatar: "avtar-3.jpg"
+  name: "Name of student"
+  designation: "College Name"
+  
+- testimonial: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+  avatar: "avtar-4.jpg"
+  name: "Name of student"
+  designation: "College Name"
