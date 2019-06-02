@@ -6,3 +6,5 @@ baseurl: "/PSST"
 highlighter: rouge
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
+plugins:
+  - jekyll-sitemap
