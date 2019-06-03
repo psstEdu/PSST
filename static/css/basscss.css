@@ -11,7 +11,6 @@
 
 */
 
-body { margin: 0 }
 img { max-width: 100% }
 svg { max-height: 100% }
 
@@ -87,7 +86,7 @@ td { vertical-align: top }
 
 body {
   font-family: 'Roboto Slab', serif;
-  line-height: 2.4;
+  line-height: 1.5;
   font-size: 62.5%;
 }
 
