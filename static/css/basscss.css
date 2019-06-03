@@ -88,13 +88,13 @@ td { vertical-align: top }
 body {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   line-height: 2.4;
-  font-size: 100%;
+  font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: bold;
-  line-height: 2.0;
+  line-height: 1.5;
   margin-top: 1em;
   margin-bottom: .5em;
 }
