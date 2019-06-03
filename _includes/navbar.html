@@ -9,8 +9,8 @@
                 {% for y in site.data.courses %}
                     <li>
                         <a class="cd-nav-item item-{{ forloop.index }}" href="{{ site.url }}{{ site.baseurl }}/PSST/cources/{{ y.link }}">
-                            <h3>{{ y.menu }}</h3>
-                            <p>{{ y.description }}</p>
+                            <div class="nav-inner-title">{{ y.menu }}</div>
+                            <div class="nav-description">{{ y.description }}</div>
                         </a>
                    </li>
                 {% endfor %}
