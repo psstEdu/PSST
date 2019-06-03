@@ -14,3 +14,8 @@ Eros in cursus turpis massa tincidunt dui ut ornare. Id diam vel quam elementum 
 <p class="h4">Pastrami 4</p>
 <p class="h5">Pastrami 5</p>
 <p class="h6">Pastrami 6</p>
+
+<h3 class="xs-hide">Hidden below 40em</h3>
+<h3 class="sm-hide red">Hidden between 40 and 52em</h3>
+<h3 class="md-hide red">Hidden between 52 and 64em</h3>
+<h3 class="lg-hide red">Hidden above 64em</h3>
