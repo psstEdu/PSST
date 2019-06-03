@@ -86,14 +86,14 @@ td { vertical-align: top }
 
 body {
   font-family: 'Roboto Slab', serif;
-  line-height: 1.5;
+  line-height: 1.8;
   font-size: 62.5%;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  line-height: 1.5;
+  line-height: 1.8;
   margin-top: 1em;
   margin-bottom: .5em;
 }
