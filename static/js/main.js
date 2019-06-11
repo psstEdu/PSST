@@ -134,7 +134,7 @@ jQuery(document).ready(function($){
 });
 
 $(function() {
-  $('.footer-links-holder h3').click(function () {
+  $('.footer-links-holder h5').click(function () {
     $(this).parent().toggleClass('active');
   });
 });
