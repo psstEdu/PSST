@@ -1348,14 +1348,14 @@ a#menu-share:hover > i{
     border: 0.3em solid #bbb;
 }
 .testimonial-cell .author{
-    font-size:1.1rem;
+    font-size:1.3rem;
     font-family:Georgia,serif;
     font-weight:700;
     text-align:center;
     margin-top:0.2em;
 }
 .testimonial-cell .designation{
-    font-size:0.7rem;
+    font-size:0.8rem;
     font-style:italic;
     font-family:Georgia,serif;
     font-weight:500;
@@ -1365,7 +1365,7 @@ a#menu-share:hover > i{
 }
 .testimonial-cell .quote{
     padding: 0.2em 1.3em 1.3em 1.3em;
-    font-size:1rem;
+    font-size:1.2rem;
     font-style:italic;
     font-family:Georgia,serif;
     font-weight:500;
@@ -1392,6 +1392,26 @@ a#menu-share:hover > i{
     bottom: -4em;
 }
 	
+@media only screen and (max-width: 600px) {
+.testimonial-cell .ribbon {
+    display: inline-block;
+    position: absolute;
+    left: 1em;
+    top: 1.9em;
+}
+.testimonial-cell .ribbon:before, .testimonial-cell .ribbon:after {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 1em;
+    bottom: -0.8em;
+    border: 0.9em solid #8c8; 
+}
+.testimonial-cell .ribbon:before{
+    border-bottom-color: transparent;
+    bottom: -2em;
+}
+}
 /* ************************************
 	     Tooltip
 ***************************************/
