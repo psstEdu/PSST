@@ -1,4 +1,4 @@
 ---
 layout: page
-color: "#A4C639"
+color: rgba(164, 198, 57, 0.3)
 ---
