@@ -1,4 +1,4 @@
 ---
 layout: page
-color: rgba(164, 198, 57, 0.6)
+color: rgba(164, 198, 57, 0.8)
 ---
