@@ -1,6 +1,9 @@
 <ul class="w3-ul">
   {% for y in site.data.courses %}
-      <li class="w3-hover-green"><a href="{{ site.url }}{{ site.baseurl }}/cources/{{ y.link }}">{{ y.menu }}</a>
+      <li class="w3-hover-green">
+          <a class="cd-nav-item item-{{ forloop.index }}" href="{{ site.url }}{{ site.baseurl }}/cources/{{ y.link }}">
+            <h3>{{ y.menu }}</h3>
+          </a>
 </li>
    {% endfor %}
 </ul>
