@@ -1,11 +1,11 @@
 <h2 class="w3-center w3-text-light-green">Cources We Offer</h2>
 <ul class="w3-ul">
   {% for y in site.data.courses %}
+  <a href="{{ site.url }}{{ site.baseurl }}/cources/{{ y.link }}">
       <li class="w3-hover-light-green">
-          <a href="{{ site.url }}{{ site.baseurl }}/cources/{{ y.link }}">
             <img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" width="25" height="25" class="mr1" />
             <h3 class="inline">{{ y.menu }}</h3>
-          </a>
       </li>
+    </a>
    {% endfor %}
 </ul>
