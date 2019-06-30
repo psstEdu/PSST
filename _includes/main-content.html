@@ -1,10 +1,13 @@
-	<main class="cd-main-content">
-		{% include hero-slider.html %}
-		<div class="flex-auto sm-flex justify">
-                   <article class="flex-auto p2 m2">
-		<!-- your content here -->
-		{{ content }}
-			   </article>
-                </div>
-		<div class="cd-overlay"></div>
-	</main>
+<main class="cd-main-content">
+{% include hero-slider.html %}
+	<div class="w3-row">
+		<div class="w3-col m4 w3-center">
+			{% include cource-left-grid.html %}
+		</div>
+        	<article class="w3-col m8 w3-center">
+			<!-- your content here -->
+			{{ content }}
+		</article>
+         </div>
+	<div class="cd-overlay"></div>
+</main>
