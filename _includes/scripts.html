@@ -2,68 +2,6 @@
 <script src="{{ site.url }}{{ site.baseurl }}/static/js/jquery.mobile.custom.min.js"></script>
 <script src="{{ site.url }}{{ site.baseurl }}/static/js/main.js"></script><!-- Resource jQuery -->
 <script>
-	function closeNav() {
-		$('.cd-nav-trigger').removeClass('nav-is-visible');
-		$('.cd-main-header').removeClass('nav-is-visible');
-		$('.cd-primary-nav').removeClass('nav-is-visible');
-		$('.has-children ul').addClass('is-hidden');
-		$('.has-children a').removeClass('selected');
-		$('.moves-out').removeClass('moves-out');
-		$('.cd-main-content').removeClass('nav-is-visible').one('webkitTransitionEnd otransitionend oTransitionEnd msTransitionEnd transitionend', function(){
-			$('body').removeClass('overflow-hidden');
-		});
-	}
-
-	function toggleSearch(type) {
-		if(type=="close") {
-			//close serach 
-			$('.cd-search').removeClass('is-visible');
-			$('.cd-search-trigger').removeClass('search-is-visible');
-			$('.cd-overlay').removeClass('search-is-visible');
-		} else {
-			//toggle search visibility
-			$('.cd-search').toggleClass('is-visible');
-			$('.cd-search-trigger').toggleClass('search-is-visible');
-			$('.cd-overlay').toggleClass('search-is-visible');
-			if($(window).width() > MqL && $('.cd-search').hasClass('is-visible')) $('.cd-search').find('input[type="search"]').focus();
-			($('.cd-search').hasClass('is-visible')) ? $('.cd-overlay').addClass('is-visible') : $('.cd-overlay').removeClass('is-visible') ;
-		}
-	}
-
-	function checkWindowWidth() {
-		//check window width (scrollbar included)
-		var e = window, 
-            a = 'inner';
-        if (!('innerWidth' in window )) {
-            a = 'client';
-            e = document.documentElement || document.body;
-        }
-        if ( e[ a+'Width' ] >= MqL ) {
-			return true;
-		} else {
-			return false;
-		}
-	}
-
-	function moveNavigation(){
-		var navigation = $('.cd-nav');
-  		var desktop = checkWindowWidth();
-        if ( desktop ) {
-			navigation.detach();
-			navigation.insertBefore('.cd-header-buttons');
-		} else {
-			navigation.detach();
-			navigation.insertAfter('.cd-main-content');
-		}
-	}
-});
-
-$(function() {
-  $('.footer-links-holder h5').click(function () {
-    $(this).parent().toggleClass('active');
-  });
-});
-
 var options = {
   accessibility: true,
   prevNextButtons: true,
