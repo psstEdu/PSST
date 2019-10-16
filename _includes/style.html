@@ -1203,7 +1203,7 @@ a#menu-share:hover > i{
 ******************************************** */
 
 	
-.overlay {
+.carousel-overlay {
 	 position: absolute;
 	 width: 100%;
 	 height: 100%;
@@ -1231,7 +1231,7 @@ a#menu-share:hover > i{
 	 transform: translateY(-50%);
 	 text-align: center;
 }
- .hero-slider .carousel-cell .slide-content .title {
+ .hero-slider .carousel-cell .slide-content .carousel-title {
 	 position: relative;
 	 font-family: 'Fjalla One', sans-serif;
 	 font-size: 3.2rem;
@@ -1239,7 +1239,7 @@ a#menu-share:hover > i{
 	 text-transform: uppercase;
 	 color: #fff;
 }
- .hero-slider .carousel-cell .slide-content .caption {
+ .hero-slider .carousel-cell .slide-content .carousel-caption {
 	 font-family: 'Noto Sans', sans-serif;
 	 font-size: 2.2rem;
 	 color: #fff;
@@ -1288,23 +1288,23 @@ a#menu-share:hover > i{
 	 border: 0 solid #f00;
 }
 /* -------------------------------- Masking -------------------------------- */
- .slide-content .title, .slide-content .caption, .slide-content .btn {
+ .slide-content .carousel-title, .slide-content .carousel-caption, .slide-content .btn {
 	 position: relative;
 	 opacity: 0;
 	 animation-fill-mode: forwards;
 }
- .slide-content.mask .mask {
+ .slide-content.carousel-mask .carousel-mask {
 	 position: relative;
 	 overflow: hidden;
 }
- .slide-content.mask .title {
+ .slide-content.carousel-mask .carousel-title {
 	 animation-duration: 0.4s;
 	 animation-delay: 0.7s;
 	 animation-name: slide-up;
 	 animation-fill-mode: backwards;
 	 opacity: 1;
 }
- .slide-content.mask .divider {
+ .slide-content.carousel-mask .carousel-divider {
 	 display: inline-block;
 	 position: relative;
 	 margin: 5px auto;
@@ -1313,7 +1313,7 @@ a#menu-share:hover > i{
 	 background-color: #fff;
 	 animation: divider-mask 1s 0.3s both;
 }
- .slide-content.mask .caption, .slide-content.mask .btn {
+ .slide-content.carousel-mask .carousel-caption, .slide-content.carousel-mask .btn {
 	 animation-duration: 0.4s;
 	 animation-delay: 0.7s;
 	 animation-name: slide-down;
