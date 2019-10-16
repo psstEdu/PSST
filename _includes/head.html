@@ -43,10 +43,10 @@ flkty.on('settle', function(index) {
 });
 
 flkty.on('change', function(index) {
-  $slideContent.eq(index).removeClass('mask');
+  $slideContent.eq(index).removeClass('carousel-mask');
 
   setTimeout(function() {
-    $slideContent.addClass('mask');
+    $slideContent.addClass('carousel-mask');
   }, 500);
 });
 
@@ -60,11 +60,11 @@ flkty.on('dragStart', function(event) {
     index = $(selectedSlide).index() - 1;
   }
 
-  $slideContent.eq(index).removeClass('mask');
+  $slideContent.eq(index).removeClass('carousel-mask');
 });
 
 setTimeout(function() {
-  $slideContent.addClass('mask');
+  $slideContent.addClass('carousel-mask');
 }, 500);
 </script>
 
