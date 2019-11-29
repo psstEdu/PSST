@@ -15,7 +15,9 @@ img: "blur-close-up-code-computer-546819.jpg"
   <li>What does Android run On – Android Internals?</li>
   <li>Why to use Android for mobile development?</li>
 </ul>
+
 ## Chapter 2:  Developing for Android: My First Android Application
+
 <ul class="myList">
   <li>How to setup Android Development Environment.</li>
   <li>Android development Framework - Android-SDK, Eclipse</li>
