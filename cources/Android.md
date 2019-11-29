@@ -41,8 +41,10 @@ img: "blur-close-up-code-computer-546819.jpg"
     <li>Drawable Resources</li>
     <li>Resolution and density independence (px,dip,dp,sip,sp)</li>
   </ul>
-  <ul class="myList">
+</ul>
+<ul class="myList">
     <li>XML Introduction to GUI objects viz.</li>
+  <ul class="myList">
     <li>Push Button</li>
     <li>Text / Labels</li>
     <li>EditText</li>
