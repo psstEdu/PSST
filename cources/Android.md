@@ -7,6 +7,7 @@ img: "blur-close-up-code-computer-546819.jpg"
 ---
 
 ## Chapter 1: Introduction to Android
+
 <ul class="myList">
   <li>A little Background about mobile technologies</li>
   <li>Overview of Android - An Open Platform for Mobile development</li>
@@ -25,6 +26,7 @@ img: "blur-close-up-code-computer-546819.jpg"
 </ul>
 
 ## Chapter 3: Android Activities and UI Design
+
 <ul class="myList">
   <li>Understanding Intent, Activity, Activity Lifecycle and Manifest</li>
   <li>Creating Application and new Activities</li>
@@ -48,7 +50,9 @@ img: "blur-close-up-code-computer-546819.jpg"
   <li>Padding</li>
   <li>Layout Weight</li>
 </ul>
+
 ## Chapter 4
+
 <ul class="myList">
   <li>Event driven Programming in Android (Text Edit, Button clicked etc.)</li>
   <li>Creating a splash screen</li>
