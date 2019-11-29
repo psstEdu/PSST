@@ -29,19 +29,19 @@ img: "blur-close-up-code-computer-546819.jpg"
 * Creating Application and new Activities
 * Expressions and Flow control, Android Manifest 
 * Simple UI -Layouts and Layout properties
-  * Fundamental Android UI Design
-  * Introducing Layouts
-  * Creating new Layouts
-  * Drawable Resources
-  * Resolution and density independence (px,dip,dp,sip,sp)
+  - Fundamental Android UI Design
+  - Introducing Layouts
+  - Creating new Layouts
+  - Drawable Resources
+  - Resolution and density independence (px,dip,dp,sip,sp)
 * XML Introduction to GUI objects viz.
-  * Push Button
-  * Text / Labels
-  * EditText
-  * ToggleButton
-  * WeightSum
-  * Padding
-  * Layout Weight
+  - Push Button
+  - Text / Labels
+  - EditText
+  - ToggleButton
+  - WeightSum
+  - Padding
+  - Layout Weight
 
 ## Chapter 4
 
