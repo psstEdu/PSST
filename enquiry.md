@@ -2,7 +2,7 @@
 layout: NormalPage
 ---
 
-<div class="w3-container w3-card-4">
+<div class="w3-card-4">
   <div class="w3-light-green">
       <h2 class="w3-text-white w3-center">Enquiry Form</h2>
   </div>
