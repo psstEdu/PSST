@@ -20,7 +20,7 @@ layout: NormalPage
       <input name="entry.1045781291" class="w3-input" type="text" required></p>
       <p>
       <label>Details</label>
-      <textarea name="entry.839337160" class="w3-input" type="text" required></textarea></p>
+      <textarea name="entry.839337160" class="w3-input" required></textarea></p>
       <p><input type="submit" class="w3-small w3-light-green w3-padding-16 w3-button w3-text-white" value="Submit"></p>
     </form>
 </div>
