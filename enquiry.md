@@ -23,9 +23,6 @@ layout: NormalPage
       <p>
       <label>Details</label>
       <input name="Details" class="w3-input" type="text"></p>
-      <p>
-        <input type="submit" class="w3-small w3-light-green w3-padding-16 w3-button" value="submit">
-      </p>
+      <p><input type="submit" class="w3-small w3-light-green w3-padding-16 w3-button" value="Submit"></p>
     </form>
 </div>
-
