@@ -14,7 +14,6 @@ layout: NormalPage
       <label>Last Name</label>
       <input name="LastName" class="w3-input" type="text"></p>
       <p>
-      <p>
       <label>Contact Number</label>
       <input name="ContactNo" class="w3-input" type="text"></p>
       <p>
