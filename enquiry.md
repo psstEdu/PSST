@@ -27,4 +27,4 @@ layout: NormalPage
         <input type="submit" class="w3-small w3-light-green w3-padding-16 w3-button" value="submit">
       </p>
     </form>
- </div>
+</div>
