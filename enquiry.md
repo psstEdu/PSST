@@ -2,4 +2,26 @@
 layout: NormalPage
 ---
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdKoxdd8YAnpdTYMDme8IJTKVHFHg5NSiF38ghxZdEPEdCzNQ/viewform?embedded=true" width="640" height="891" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<div class="w3-container w3-lightgreen">
+  <h2>Enquiry Form</h2>
+</div>
+
+<form class="w3-container" action="https://formspree.io/xledlzlr" method="POST">>
+  <p>
+  <label>First Name</label>
+  <input name="FirstName" class="w3-input" type="text"></p>
+  <p>
+  <label>Last Name</label>
+  <input namne="LastName" class="w3-input" type="text"></p>
+  <p>
+  <p>
+  <label>Contact Number</label>
+  <input name="ContactNo" class="w3-input" type="text"></p>
+  <p>
+  <label>Email</label>
+  <input name="email" class="w3-input" type="text"></p>
+  <p>
+  <label>Details</label>
+  <input name="Details" class="w3-input" type="text"></p>
+  <button type="submit" class="w3-small w3-lighgreen w3-padding-16 w3-button">Send</button>
+</form>
