@@ -6,7 +6,7 @@ layout: NormalPage
   <h2>Enquiry Form</h2>
 </div>
 
-<form class="w3-container" action="https://formspree.io/xledlzlr" method="POST">>
+<form class="w3-container" action="https://formspree.io/xledlzlr" method="POST">
   <p>
   <label>First Name</label>
   <input name="FirstName" class="w3-input" type="text"></p>
