@@ -21,7 +21,7 @@ layout: NormalPage
       <input name="email" class="w3-input" type="text"></p>
       <p>
       <label>Details</label>
-      <input name="Details" class="w3-input" type="text"></p>
-      <p><input type="submit" class="w3-small w3-light-green w3-padding-16 w3-button" value="Submit"></p>
+        <textarea name="Details" class="w3-input" type="text"></textarea></p>
+      <p><input type="submit" class="w3-small w3-light-green w3-padding-16 w3-button w3-text-white" value="Submit"></p>
     </form>
 </div>
