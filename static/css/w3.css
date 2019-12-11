@@ -203,4 +203,4 @@
 ol.myList{list-style:decimal inside;}
 ul.myList{list-style:disc inside;}
 ol.myLevelTtoList{list-style:decimal inside;}
-ul.myLevelTtoList{list-style:disc inside;}
+ul.myLevelTtoList{list-style:disc inside;margin-left:2em}
