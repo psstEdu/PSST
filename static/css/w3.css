@@ -202,3 +202,5 @@
 .w3-border-pale-yellow,.w3-hover-border-pale-yellow:hover{border-color:#ffffcc!important}.w3-border-pale-blue,.w3-hover-border-pale-blue:hover{border-color:#e7ffff!important}
 ol.myList{list-style:decimal inside;}
 ul.myList{list-style:disc inside;}
+ol.myLevelTtoList{list-style:decimal inside;}
+ul.myLevelTtoList{list-style:disc inside;}
