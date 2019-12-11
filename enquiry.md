@@ -2,7 +2,7 @@
 layout: NormalPage
 ---
 
-<div class="w3-container w3-lightgreen">
+<div class="w3-container w3-light-green">
   <h2>Enquiry Form</h2>
 </div>
 
@@ -23,5 +23,7 @@ layout: NormalPage
   <p>
   <label>Details</label>
   <input name="Details" class="w3-input" type="text"></p>
-  <button type="submit" class="w3-small w3-lighgreen w3-padding-16 w3-button">Send</button>
+  <p>
+    <input type="submit" class="w3-small w3-light-green w3-padding-16 w3-button">Send
+  </p>
 </form>
