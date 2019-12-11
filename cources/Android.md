@@ -34,7 +34,7 @@ img: "blur-close-up-code-computer-546819.jpg"
   <li>Creating Application and new Activities</li>
   <li>Expressions and Flow control, Android Manifest</li>
   <li>Simple UI -Layouts and Layout properties</li>
-  <ul class="myList">
+  <ul class="myLevelTtoList">
     <li>Fundamental Android UI Design</li>
     <li>Introducing Layouts</li>
     <li>Creating new Layouts</li>
@@ -44,7 +44,7 @@ img: "blur-close-up-code-computer-546819.jpg"
 </ul>
 <ul class="myList">
     <li>XML Introduction to GUI objects viz.</li>
-  <ul class="myList">
+  <ul class="myLevelTtoList">
     <li>Push Button</li>
     <li>Text / Labels</li>
     <li>EditText</li>
