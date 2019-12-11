@@ -8,7 +8,7 @@ layout: NormalPage
   <div class="w3-container w3-light-green">
       <h2 class="w3-text-white w3-center">Enquiry Form</h2>
   </div>
-    <form class="w3-container" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdKoxdd8YAnpdTYMDme8IJTKVHFHg5NSiF38ghxZdEPEdCzNQ/formResponse?embedded=true" method="POST">
+    <form class="w3-container" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdKoxdd8YAnpdTYMDme8IJTKVHFHg5NSiF38ghxZdEPEdCzNQ/formResponse?embedded=true" method="POST" target="hidden_iframe" onsubmit="submitted=true;>
       <p>
       <label>Name</label>
       <input name="entry.2005620554" class="w3-input" type="text" required></p>
