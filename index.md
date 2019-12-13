@@ -44,6 +44,7 @@ software professional.
     <li>Multi-platform proficiency</li>
     <li>Special Package sessions for soft skills, career guidance</li>
     <li>Seminars by industry experts</li>
+</ul>
 
 # Mission
 
