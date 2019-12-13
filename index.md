@@ -2,22 +2,46 @@
 layout: default
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero justo laoreet sit amet cursus sit amet dictum sit. Felis eget velit aliquet sagittis id. Dictumst vestibulum rhoncus est pellentesque. Praesent tristique magna sit amet purus. Luctus accumsan tortor posuere ac ut consequat semper viverra nam. Et malesuada fames ac turpis egestas. Magnis dis parturient montes nascetur ridiculus. Id velit ut tortor pretium. Risus feugiat in ante metus dictum at tempor commodo ullamcorper. Varius duis at consectetur lorem donec. Hac habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Aenean sed adipiscing diam donec adipiscing tristique. Tincidunt lobortis feugiat vivamus at. Urna porttitor rhoncus dolor purus non enim. Id leo in vitae turpis massa. Gravida quis blandit turpis cursus in hac habitasse platea dictumst.
+### IT Redefined
 
-{% include testimonial.html %}
+A Leading Service Provider in Creating Sales Oriented, ROI Driven Web and PC Based Enterprise Level Applications
 
-Facilisis mauris sit amet massa vitae tortor. Odio ut sem nulla pharetra diam sit amet. Molestie at elementum eu facilisis sed odio morbi quis. Orci eu lobortis elementum nibh. At tempor commodo ullamcorper a lacus vestibulum sed arcu. Dolor morbi non arcu risus quis varius quam quisque id. Arcu odio ut sem nulla pharetra. Volutpat diam ut venenatis tellus. Massa enim nec dui nunc mattis enim ut tellus. Suspendisse ultrices gravida dictum fusce ut placerat orci nulla pellentesque.
+Progressive Software Solutions and Training is IT Service Company that cost effectively provides cutting edge Information Technology services to a global clientele spread across the globe. We provide a wide range of IT services and solutions.
 
-Eros in cursus turpis massa tincidunt dui ut ornare. Id diam vel quam elementum pulvinar etiam non. Ornare aenean euismod elementum nisi quis eleifend quam. Pharetra et ultrices neque ornare aenean euismod elementum nisi quis. Feugiat nibh sed pulvinar proin gravida hendrerit. Dolor morbi non arcu risus quis. At consectetur lorem donec massa. Vulputate dignissim suspendisse in est ante. Id eu nisl nunc mi ipsum faucibus vitae. Malesuada nunc vel risus commodo viverra maecenas accumsan. Urna nunc id cursus metus aliquam eleifend mi in nulla. Tincidunt eget nullam non nisi. Fames ac turpis egestas integer eget aliquet nibh praesent tristique. Nisl nunc mi ipsum faucibus. Dis parturient montes nascetur ridiculus mus mauris vitae.
 
-<p class="h1">Pastrami 1</p>
-<p class="h2">Pastrami 2</p>
-<p class="h3">Pastrami 3</p>
-<p class="h4">Pastrami 4</p>
-<p class="h5">Pastrami 5</p>
-<p class="h6">Pastrami 6</p>
+### Progressive focuses on:
 
-<h3 class="xs-hide">Hidden below 40em</h3>
-<h3 class="sm-hide red">Hidden between 40 and 52em</h3>
-<h3 class="md-hide red">Hidden between 52 and 64em</h3>
-<h3 class="lg-hide red">Hidden above 64em</h3>
+<ul class="myList">
+    <li>Software development</li>
+    <li>Software training</li>
+    <li>Placement</li>
+    <li>Consulting</li>
+    <li>Staffing</li>
+    <li>Support and sales.</li>
+    <li>Enterprise services</li>
+    <li>Corporate Training</li>
+    <li>Application Development and Maintenance</li>
+    <li>Tally</li>
+    <li>C Dit</li>
+</ul>
+
+# Are You Preparing For The Global Tomorrow?
+
+SOFTWARE TRAINING: Practical oriented program lead to get in touch with real time scenario. Progressive provides students with hands on training and relevant courses to stay abreast requirements of the IT world. We give internationally certified courses in the area of software and networking.
+
+Our Project Oriented Training Program helps you t scale new heights in IT world as a
+software professional.
+
+### Highlights:
+
+<ul class="myList">
+    <li>Professionally qualified trainers with experience in Corporate Training and Software Development.</li>
+    <li>State – of- The- art Software Training Methodology</li>
+    <li>Global working environment</li>
+    <li>Career Guidance and 100% Placement ASSISTANCE</li>
+    <li>On job training with LIVE Project experience</li>
+    <li>Full-fledged lab with top notch machines</li>
+    <li>Multi-platform proficiency</li>
+    <li>Special Package sessions for soft skills, career guidance</li>
+    <li>Seminars by industry experts</li>
+
