@@ -26,6 +26,7 @@ Progressive Software Solutions and Training is IT Service Company that cost effe
     <li>Tally</li>
     <li>C Dit</li>
 </ul>
+
 # Are You Preparing For The Global Tomorrow?
 
 SOFTWARE TRAINING: Practical oriented program lead to get in touch with real time scenario. Progressive provides students with hands on training and relevant courses to stay abreast requirements of the IT world. We give internationally certified courses in the area of software and networking.
