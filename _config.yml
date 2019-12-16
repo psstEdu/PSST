@@ -3,7 +3,7 @@ url: "https://psstEdu.github.io"
 baseurl: ""
 
 
-highlighter: rouge
+# highlighter: rouge
 markdown: kramdown
 gems: [jekyll-paginate, jekyll-gist]
 
