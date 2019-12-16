@@ -5,8 +5,9 @@
 		{% if counter == 1 %}
 		<div class="w3-row-padding">
 		{% endif %}
-		<div class="w3-third w3-card w3-container w3-margin-bottom">
-			<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" style="width:100%" class="w3-hover-opacity">
+		<div class="w3-third w3-card-4 w3-container w3-margin-bottom">
+			<div class="w3-container w3-padding-32" style="backgroung-color: {{ y.color }}"
+			<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" style="width:60%" class="w3-hover-opacity">
 			<div class="w3-container w3-white">
 				<p><b>{{ y.menu }}</b></p>
 				<p>{{ y.description }}</p>
