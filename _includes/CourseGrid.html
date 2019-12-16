@@ -11,9 +11,13 @@
 				<p><b>{{ y.menu }}</b></p>
 				<p>{{ y.description }}</p>
 			</div>
-			{% if counter == 3 %}
-		</div>
-		{% assign counter = 0 %}
+		{% if counter == 3 %}
+			</div>
+			{% assign counter = 0 %}
 		{% endif %}
+		
 	{% endfor %}
-</div>
+	
+	{% if counter != 0 %}
+		</div>
+	{% endif %}
