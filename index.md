@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<h1 class="center">Courses</h1>
+<h1 class="center">Courses We Offer</h1>
 
 {% include CourseGrid.md %}
 
