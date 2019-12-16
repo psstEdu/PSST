@@ -2,9 +2,8 @@
 	{% for y in site.data.courses %}
 		{% assign counter = counter | plus:1 %}
 		{% if counter == 1 %}
-		<div class="w3-row-padding">
+		<div class="w3-row-padding" style="display; block;margin-left: auto; margin-right: auto;">
 		{% endif %}
-		<div style="display; block;margin-left: auto; margin-right: auto;">
 		<div class="w3-third w3-margin-bottom w3-margin-right" style="max-width:220px;">
 			<div class="w3-card-2">
 				<header class="w3-hover-opacity" style="background-color: {{ y.color }}; margin:0; width: auto; height: 190px">
@@ -13,7 +12,6 @@
 				<div class="w3-container w3-white">
 					<h5 class="center" style="color: {{ y.color }}">{{ y.menu }}</h5>
 					<p><b>{{ y.description }}</b></p>
-					</div>
 				</div>
 			</div>
 		</div>
