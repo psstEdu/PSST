@@ -6,8 +6,8 @@
 		{% if counter == 1 %}
 		<div class="w3-row-padding">
 		{% endif %}
-		<div class="w3-third w3-container w3-margin-bottom">
-			<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+		<div class="w3-third w3-card w3-container w3-margin-bottom">
+			<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" style="width:100%" class="w3-hover-opacity">
 			<div class="w3-container w3-white">
 				<p><b>{{ y.menu }}</b></p>
 				<p>{{ y.description }}</p>
@@ -18,3 +18,6 @@
 		{% endif %}
 		
 	{% endfor %}
+	{% if counter != 0 %}
+		</div>
+	{% endif %}
