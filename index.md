@@ -4,7 +4,7 @@ layout: default
 
 <h1 class="center">Courses</h1>
 
-{% include CourseGrid.html %}
+{% include CourseGrid.md %}
 
 ## IT Redefined
 
