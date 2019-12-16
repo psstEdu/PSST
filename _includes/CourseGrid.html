@@ -1,4 +1,4 @@
-<div class="w3-main w3-content w3-padding" style="max-width:800px;margin-top:100px">
+<div class="w3-main w3-content w3-padding w3-center" style="max-width:800px;">
 	{% assign counter = 0 %}
 	{% for y in site.data.courses %}
 		{% assign counter = counter | plus:1 %}
@@ -6,7 +6,7 @@
 		<div class="w3-row w3-center">
 		{% endif %}
 		<div class="w3-third w3-mobile">
-			<div class="w3-card-4 w3-margin-bottom w3-margin-right" style="max-width:220px;margin: 0 auto;">
+			<div class="w3-card-4 w3-margin-bottom w3-margin-right" style="max-width:220px;">
 				<header class="w3-display-container w3-hover-opacity" style="background-color: {{ y.color }}; margin:0; width: auto; height: 190px">
 					<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" class="w3-display-middle course-img">
 				</header>
