@@ -204,3 +204,4 @@ ol.myList{list-style:decimal inside;}
 ul.myList{list-style:disc inside;}
 ol.myLevelTtoList{list-style:decimal inside;}
 ul.myLevelTtoList{list-style:disc inside;margin-left:2em}
+.course-img{position: relative; left: 20%; top: 20%; background-color: #bbb;vertical-align: middle; width: 70px; height: 100px;border-radius: 50%;}
