@@ -2,8 +2,7 @@
 layout: default
 ---
 
-# Courses We Offer{: .center}
-
+<h1 class="center">Courses We Offer</h1>
 {% include CourseGrid.html %}
 
 ## IT Redefined
