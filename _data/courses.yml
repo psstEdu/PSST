@@ -2,58 +2,70 @@
   link: Android
   icon: android
   description: Description of course goes here
+  color: "#a4c639"
    
 - menu: Angular JS
   link: Angular
   icon: angular
   description: Description of course goes here
+  color: "#b52e31"
 
 - menu: Django
   link: Django
   icon: django
   description: Description of course goes here
+  color: "#092e20"
    
 - menu: Ionic
   link: Ionic
   icon: ionic
   description: Description of course goes here
+  color: " #498aff"
    
 - menu: JSP
   link: Jsp
   icon: java
   description: Description of course goes here
+  color: "#007396"
    
 - menu: Laravel
   link: Laravel
   icon: laravel
   description: Description of course goes here
+  color: "#f55247"
    
 - menu: MongoDB
   link: Mongo
   icon: mongodb
   description: Description of course goes here
+  color: "#589636"
    
 - menu: Node.js
   link: Node
   icon: node-dot-js
   description: Description of course goes here
+  color: "#44883e"
    
 - menu: PHP
   link: Php
   icon: php
   description: Description of course goes here
+  color: "#4f5b93"
    
 - menu: Python
   link: Python
   icon: python
   description: Description of course goes here
+  color: "#4584b6"
    
 - menu: Raspberry Pi
   link: Raspberry
   icon: raspberrypi
   description: Description of course goes here
+  color: "#c7053d"
    
 - menu: Wordpress
   link: Wordpress
   icon: wordpress
   description: Description of course goes here
+  color: "#0087be"
