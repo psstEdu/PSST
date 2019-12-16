@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Courses We Offer{:.center}
+# Courses We Offer{: .center}
 
 {% include CourseGrid.html %}
 
