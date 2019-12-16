@@ -2,7 +2,10 @@
 layout: default
 ---
 
-### IT Redefined
+<h1 class="center"></h1>
+{% include CourseGrid.html %}
+
+## IT Redefined
 
 A Leading Service Provider in Creating Sales Oriented, ROI Driven Web and PC Based Enterprise Level Applications
 
