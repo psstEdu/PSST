@@ -1,6 +1,7 @@
+{% assign counter = 0 %}
 {% for y in site.data.courses %}
-	{% increment my_counter %}
-	{% if my_counter == 0 %}
+	{% assign counter = counter | plus:1 %}
+	{% if my_counter == 1 %}
     	<div class="w3-row-padding">
  	{% endif %}
     	<div class="w3-third w3-container w3-margin-bottom">
@@ -10,8 +11,8 @@
           		<p><b>{{ y.menu }}</b></p>
           		<p>{{ y.description }}</p>
          	</div>
-       		{% if my_counter == 3 %}
+       		{% if counter == 3 %}
        			</div>
-       			{% assign my_counter = 0 %}
+       			{% assign counter = 0 %}
        		{% endif %}
 {% endfor %}
