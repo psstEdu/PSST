@@ -1,17 +1,19 @@
-{% assign counter = 0 %}
-{% for y in site.data.courses %}
-	{% assign counter = counter | plus:1 %}
-	{% if counter == 1 %}
-	<div class="w3-row-padding">
-	{% endif %}
-	<div class="w3-third w3-container w3-margin-bottom">
-		<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="Norway" style="width:100%" class="w3-hover-opacity">
-		<div class="w3-container w3-white">
-			<p><b>{{ y.menu }}</b></p>
-			<p>{{ y.description }}</p>
-		</div>
-		{% if counter == 3 %}
-	</div>
+{% raw %}
 	{% assign counter = 0 %}
-	{% endif %}
-{% endfor %}
+	{% for y in site.data.courses %}
+		{% assign counter = counter | plus:1 %}
+		{% if counter == 1 %}
+		<div class="w3-row-padding">
+		{% endif %}
+		<div class="w3-third w3-container w3-margin-bottom">
+			<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+			<div class="w3-container w3-white">
+				<p><b>{{ y.menu }}</b></p>
+				<p>{{ y.description }}</p>
+			</div>
+			{% if counter == 3 %}
+		</div>
+		{% assign counter = 0 %}
+		{% endif %}
+	{% endfor %}
+{% endraw %}
