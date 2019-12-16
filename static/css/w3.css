@@ -204,18 +204,10 @@ ol.myList{list-style:decimal inside;}
 ul.myList{list-style:disc inside;}
 ol.myLevelTtoList{list-style:decimal inside;}
 ul.myLevelTtoList{list-style:disc inside;margin-left:2em}
-.course-img{position: relative; left: 23%; top: 23%; background-color: #fff;vertical-align: middle; width: 100px; height: 100px;padding: 20px;border-radius: 50%;}
+.course-img{background-color: #fff;vertical-align: middle; width: 100px; height: 100px;padding: 25px;border-radius: 50%;}
 @media only screen and (max-width: 768px) {
-  .put-midddle{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .course-img{background-color: #fff;vertical-align: middle; width: 80px; height: 80px;padding: 10px;border-radius: 50%;}
 }
 @media only screen and (max-width: 600px) {
-  .put-midddle{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
+  .course-img{background-color: #fff;vertical-align: middle; width: 64px; height: 64px;padding: 10px;border-radius: 50%;}
 }
