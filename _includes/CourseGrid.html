@@ -3,12 +3,14 @@
 	{% for y in site.data.courses %}
 		{% assign counter = counter | plus:1 %}
 		{% if counter == 1 %}
-		<div class="w3-row-padding w3-padding-16 w3-center">
+		<div class="w3-row-padding w3-center">
 		{% endif %}
 		<div class="w3-third">
 			<div class="w3-card-4 w3-margin-bottom w3-margin-right">
 				<header class="w3-hover-opacity" style="background-color: {{ y.color }}; margin:0; width: auto; height: 190px">
-					<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" class="course-img">
+					<div class="w3-display-middle">
+						<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" class="course-img">
+					</div>
 				</header>
 				<div class="w3-container w3-white">
 					<h5 class="center" style="color: {{ y.color }}">{{ y.menu }}</h5>
