@@ -1,19 +1,20 @@
-<div class="w3-display-container">
-	<div class="w3-display-topmiddle">
 	{% assign counter = 0 %}
 	{% for y in site.data.courses %}
 		{% assign counter = counter | plus:1 %}
 		{% if counter == 1 %}
 		<div class="w3-row-padding"">
 		{% endif %}
-		<div class="w3-third s4 w3-margin-bottom w3-margin-right" style="max-width:220px;">
-			<div class="w3-card-2">
-				<header class="w3-hover-opacity" style="background-color: {{ y.color }}; margin:0; width: auto; height: 190px">
-					<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" class="course-img">
-				</header>
-				<div class="w3-container w3-white">
-					<h5 class="center" style="color: {{ y.color }}">{{ y.menu }}</h5>
-					<p><b>{{ y.description }}</b></p>
+		<div class="w3-display-container">
+			<div class="w3-display-topmiddle">
+				<div class="w3-third s4 w3-margin-bottom w3-margin-right" style="max-width:220px;">
+					<div class="w3-card-2">
+						<header class="w3-hover-opacity" style="background-color: {{ y.color }}; margin:0; width: auto; height: 190px">
+							<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" class="course-img">
+						</header>
+					<div class="w3-container w3-white">
+						<h5 class="center" style="color: {{ y.color }}">{{ y.menu }}</h5>
+						<p><b>{{ y.description }}</b></p>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -26,5 +27,3 @@
 	{% if counter != 0 %}
 		</div>
 	{% endif %}
-	</div>
-</div>
