@@ -5,13 +5,15 @@
 		{% if counter == 1 %}
 		<div class="w3-row-padding">
 		{% endif %}
-		<div class="w3-third w3-card-2 w3-margin-bottom w3-margin-right" style="width:220px;">
-			<header style="background-color: {{ y.color }}; margin:0; width: auto; height: 190px">
-				<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" style="width:60%; margin:0 auto;" class="w3-hover-opacity">
-			</header>
-			<div class="w3-container w3-white">
-				<p><b>{{ y.menu }}</b></p>
-				<p>{{ y.description }}</p>
+		<div class="w3-third w3-margin-bottom w3-margin-right" style="width:220px;">
+			<div class="w3-card-2">
+				<header style="background-color: {{ y.color }}; margin:0; width: auto; height: 190px">
+					<img src="{{ site.url }}{{ site.baseurl }}/assets/svg/{{ y.icon }}.svg" alt="{{ y.icon }}" style="width:60%; margin:0 auto;" class="w3-hover-opacity">
+				</header>
+				<div class="w3-container w3-white">
+					<p><b>{{ y.menu }}</b></p>
+					<p>{{ y.description }}</p>
+				</div>
 			</div>
 		</div>
 		{% if counter == 3 %}
