@@ -205,13 +205,20 @@ ul.myList{list-style:disc inside;}
 ol.myLevelTtoList{list-style:decimal inside;}
 ul.myLevelTtoList{list-style:disc inside;margin-left:2em}
 .course-img{position: relative; left: 23%; top: 23%; background-color: #fff;vertical-align: middle; width: 100px; height: 100px;padding: 20px;border-radius: 50%;}
-@media only screen and (max-width: 768px) {
-  .put-midddle{
-    margin-left: 20%;
-  }
-}
-@media only screen and (max-width: 600px) {
-  .put-midddle{
+
+@media (min-width: 481px) and (max-width: 767px) {
+ 
+    .put-midddle{
     margin-left: 10%;
   }
+  
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .put-midddle{
+    margin-left: 5%;
+  }
+  
 }
