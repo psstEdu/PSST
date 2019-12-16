@@ -206,13 +206,15 @@ ol.myLevelTtoList{list-style:decimal inside;}
 ul.myLevelTtoList{list-style:disc inside;margin-left:2em}
 .course-img{position: relative; left: 23%; top: 23%; background-color: #fff;vertical-align: middle; width: 100px; height: 100px;padding: 20px;border-radius: 50%;}
 @media only screen and (max-width: 768px) {
-  .put-midddle>div{
+  .put-midddle{
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
 }
 @media only screen and (max-width: 600px) {
-  .put-midddle>div{
+  .put-midddle{
+    display: block;
     margin-left: auto;
     margin-right: auto;
   }
