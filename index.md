@@ -2,10 +2,6 @@
 layout: default
 ---
 
-<h1 class="center">Courses We Offer</h1>
-
-{% include CourseGrid.md %}
-
 ## IT Redefined
 
 A Leading Service Provider in Creating Sales Oriented, ROI Driven Web and PC Based Enterprise Level Applications
@@ -28,6 +24,9 @@ Progressive Software Solutions and Training is IT Service Company that cost effe
     <li>Tally</li>
     <li>C Dit</li>
 </ul>
+<h1 class="center">Courses We Offer</h1>
+
+{% include CourseGrid.html %}
 
 # Are You Preparing For The Global Tomorrow?
 
