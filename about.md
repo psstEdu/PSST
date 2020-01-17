@@ -46,3 +46,15 @@ software professional.
     <li>Multi-platform proficiency</li>
     <li>Special Package sessions for soft skills, career guidance</li>
     <li>Seminars by industry experts</li>
+</ul>
+
+<h1>Mission</h1>
+
+<p>Our mission is to enhance business effectiveness by providing cost-effective, innovative and quality information technology and services to students. It helps companies align Information Technology with their organization goals and business objectives, while ensuring enhanced operational efficiency, greater flexibility and substantial cost savings.</p>
+
+<p>We aim at Total Student Satisfaction. We focus on the requirements and expectations of our students and strive to exceed them so as to provide world class products and services through continuous innovations and improvement of our services.</p>
+
+<h1>Vision</h1>
+
+<p>Our Goal is to maintain and grow a culture of IT engineering and customer service excellence through a continuous process improvement program. Progressive provides a cutting edge through modern technologies and qualified professionals. We are delivering high end technical solutions which meet customer requirements in richly acceptable manner.</p>
+
